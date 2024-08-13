@@ -42,7 +42,7 @@ function App() {
             iframeDoc.close();
             setLoading(false);
         } else {
-            Axios.post(`http://localhost:8000/compile`, {
+            Axios.post(`https://code-compiler-trrj.onrender.com/compile`, {
                 code: userCode,
                 language: userLang,
                 input: userInput
