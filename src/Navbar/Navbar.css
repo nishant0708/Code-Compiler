@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 50px;
+    text-align: center;
+    color: #e15e20;
+    background-color: #474747;
+    gap: 20px;
+}
+
+.css-2b097c-container {
+    width: 120px;
+    color: black;
+    background-color: #b73636;
+}
+
+.css-yk16xz-control {
+    background-color: #474747 !important;
+    border-color: #3a44b4 !important;
+}
