@@ -13,6 +13,8 @@ const Navbar = ({ userLang, setUserLang, userTheme, setUserTheme, fontSize, setF
     const themes = [
         { value: "vs-dark", label: "Dark" },
         { value: "light", label: "Light" },
+        {value:"hc-black",label:"hc-black"},
+        {value:"hc-light",label:"hc-light"},
     ];
 
     return (
